@@ -1,0 +1,283 @@
+/* STYLE DATA EMPLOYEE PAGE */
+#tabs-data-employee .nav-item {
+	width: calc(100% / 10);
+}
+#tabs-data-employee .slide {
+	width: calc(100% / 10);
+}
+.DataEmployee input[name="NamaKaryawan"] {
+	text-transform: uppercase;
+}
+#data-employee tbody tr td {
+	vertical-align: middle;
+}
+#data-employee tbody tr td a.btn i {
+	margin: 0;
+}
+.DataEmployee .modal-footer .wrapper-load {
+	position: relative;
+}
+.DataEmployee .modal-footer .wrapper-load button {
+	margin: 0;
+}
+.DataEmployee .modal-footer .wrapper-load .preloader3 {
+	position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  background-color: #ffffff85;
+  display: none;
+}
+.DataEmployee .modal-footer .wrapper-load .preloader3 > div {
+  position: relative;
+  top: 10px;
+}
+.cover-profile .profile-bg-img .user-title h2, 
+.cover-profile .profile-bg-img .user-title span {
+  font-weight: 700;
+  color: #333 !important;
+}
+
+
+/* STYLE PAGE WORK ORDER */
+#ModalCreate {
+	z-index: 9999;
+}
+#ModalCreate #DataMekanik {
+	position: relative;
+}
+#ModalCreate #DataMekanik .preloader3 {
+	display: none;
+}
+#ModalCreate #DataMekanik .preloader3 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: auto;
+  bottom: 0px;
+  height: calc(2.25rem + 2px);
+  padding-top: 20px;
+  background-color: #ffffff73;
+  opacity: 0.6;
+  z-index: 99999;
+}
+#ModalCreate .qrc-code {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	max-height: 430px;
+}
+#ModalCreate .qrc-wo {
+	padding: 4px
+}
+#ModalCreate .qrc-start {
+  padding: 4px;
+}
+#ModalCreate .qrc-start div {
+	margin: 10px auto;
+}
+#ModalCreate .qrc-end {
+  padding: 4px;
+}
+#ModalCreate .qrc-end div {
+	margin: 10px auto;
+}
+#ModalCreate #GenerateQRCode {
+	display: none;
+}
+.select2-container .select2-dropdown {
+	z-index: 9999;
+}
+
+
+/* STYLE PAGE TRACKING CODE */
+table tbody tr td a.btn i {
+  margin: 0;
+}
+
+
+/* STYLE NAVBAR */
+.nav-bp .navbar-logo .logo-nav i {
+  font-size: 40px;
+  margin-right: 10px;
+  margin-left: 15px;
+}
+.nav-bp .navbar-logo .logo-nav p {
+  margin: 10px 0;
+}
+
+
+
+/* STYLE ANTRIAN MAKAN */
+.btn-generate button {
+  margin: 5px;
+}
+#view-scan {
+  margin-top: 5rem !important;
+}
+#view-scan .order-card {
+  height: 20rem;
+  margin: 5px 0;
+}
+#view-scan .card-block {
+  font-family: 'Lato', sans-serif;
+}
+#view-scan .card-block h1:first-child {
+  font-size: 4rem;
+  margin: 5px 0;
+}
+#view-scan .card-block h1:nth-child(2) {
+  font-size: 5rem;
+  margin: 25px 0;
+  font-weight: 600;
+}
+#view-scan .card-block h1:nth-child(3) {
+  font-size: 4rem;
+  margin: 5px 0;
+}
+
+#view-scan.new-scan .card-block table {
+  width: 100%;
+  height: 280px;
+}
+#view-scan.new-scan .card-block table tbody tr th {
+  text-align: center;
+}
+
+#view-scan.new-scan .card-block table tr:first-child th {
+  font-size: 25px;
+}
+#view-scan.new-scan .card-block table tr:nth-child(2) th {
+  font-size: 30px;
+  white-space: pre-wrap;
+}
+#view-scan.new-scan .card-block table tr:nth-child(3) th {
+  font-size: 20px;
+}
+#view-scan .card-block i {
+  top: 7rem;
+}
+
+.title-antrian li h4 {
+  line-height: 56px;
+  margin: 0;
+}
+.title-antrian li h1 {
+  line-height: 56px;
+  margin: 0;
+}
+.tooltip.bs-tooltip-auto[x-placement^=top], 
+.tooltip.bs-tooltip-top {
+  z-index: 9999;
+}
+
+
+/* STYLE SCAN BARCODE */
+.title-infouser {
+    padding: 15px;
+    text-align: center;
+    margin: 0; 
+}
+#table-update-user_info tbody tr td {
+  vertical-align: middle;
+}
+.NotScn.alert-danger {
+  background-color: #f00;
+  border-color: #f6f7fb;
+  color: #ffffff;
+}
+.NotScn.alert {
+  font-size: 25px;
+}
+
+
+/* STYLE DATA GENERATE BARCODE */
+#data-generate-barcode tbody tr td {
+  vertical-align: middle;
+}
+#saving-barcode .modal-body .card-block p {
+  margin: auto;
+  line-height: 35px;
+}
+@media (min-width: 992px) {  
+  #generate-barcode .modal-lg {
+    max-width: 900px;
+  }
+}
+
+
+/*  STYLE NOTIF ALERT */
+#notif-alert {
+  position: relative;
+}
+#notif-alert .alert-success {
+  position: absolute;
+  z-index: 9999;
+  right: 50px;
+  top: 5rem;
+}
+#notif-alert .alert button.close {
+  margin-top: 3px;
+}
+#notif-alert .alert code {
+  margin-right: 10px;
+}
+
+/* Load Summary */
+.loader-block.load-summary {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background-color: #ffffffa1;
+  display: none;
+}
+.loader-block.load-summary #loader2 {
+  width: 50px;
+  height: 50px;
+}
+
+#GEN_wrapper #GEN tbody tr td {
+  padding: .55rem;
+}
+#GEN_wrapper .dataTables_scrollHeadInner {
+  width: 100%;
+}
+#GEN_wrapper .dataTables_scrollHeadInner table {
+  width: 100%;
+}
+
+#generate-barcode .modal-content,
+#tb_report .j-wrapper,
+#edit-generate-barcode .modal-content,  {
+  position: relative;
+}
+
+#tb_report .j-wrapper .loader-block,
+#tb_report_time .j-wrapper .loader-block-time,
+#generate-barcode .modal-content .loader-block,
+#edit-generate-barcode .modal-content .loader-block {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffffa6;
+  z-index: 999;
+  display: none;
+}
+
+
+#mdl-editDataAbsensi .modal-content .loader-block {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffffa6;
+  z-index: 999;
+  display: none;
+}
